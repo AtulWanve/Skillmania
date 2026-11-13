@@ -29,7 +29,11 @@ jobs:
 
       - name: Python Security Audit (Bandit)
         run: |
-          bandit -c pyproject.toml -r .
+          if [ -f pyproject.toml ]; then
+            bandit -c pyproject.toml -r .
+          else
+            bandit -r .
+          fi
 
       - name: Registry Schema Validation
         run: |

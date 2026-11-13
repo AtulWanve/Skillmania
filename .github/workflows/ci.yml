@@ -1,0 +1,55 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    name: Lint, Test & Verification
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Tooling
+        run: |
+          pip install ruff bandit yamllint pyyaml
+
+      - name: Python Linter (Ruff)
+        run: |
+          ruff check .
+
+      - name: Python Security Audit (Bandit)
+        run: |
+          bandit -c pyproject.toml -r .
+
+      - name: Registry Schema Validation
+        run: |
+          if [ -f scripts/validate_registry.py ]; then
+            python scripts/validate_registry.py
+          else
+            echo "scripts/validate_registry.py not yet present; skipping."
+          fi
+
+      - name: YAML Validation (yamllint)
+        run: |
+          if [ -d registry ]; then
+            yamllint -c .yamllint.yml registry/ .github/
+          else
+            yamllint -c .yamllint.yml .github/
+          fi
+
+      - name: Markdown Link Check (Lychee)
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --max-concurrency 8 --no-progress "**/*.md"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,9 @@
+name: clean-code
+description: "Follow the reduced principles when writing or changing code: First Make it Work, Then Make it Right, Follow Practice."
+status: active
+created: 2026-10-31
+last_audited: 2026-10-31
+targets:
+  - claude-code
+triggers: "manual, /clean-code, clean code, make it work make it right, reduced principles"
+notes: "Disciplined software development principles covering First Make it Work, Then Make it Right, and Follow Practice."

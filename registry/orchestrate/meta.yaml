@@ -1,0 +1,9 @@
+name: orchestrate
+description: "Universal multi-agent orchestration for feature planning, deep investigations, surprise bug diagnoses, or audits"
+status: active
+created: unknown
+last_audited: 2026-10-26
+targets:
+  - claude-code
+triggers: "manual"
+notes: "Imported from Claude Code global skills"

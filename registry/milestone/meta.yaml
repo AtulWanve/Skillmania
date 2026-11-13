@@ -1,0 +1,9 @@
+name: milestone
+description: "Scaffold, plan, and execute milestone workflows with task specifications, CI workflows, and resolution-linked PRs"
+status: active
+created: 2026-11-01
+last_audited: 2026-11-06
+targets:
+  - claude-code
+triggers: "milestone, acceptance criteria, scope restrictions, issue template, pr template, task specification"
+notes: "Enforces milestone execution contracts and clean repo hygiene across projects"

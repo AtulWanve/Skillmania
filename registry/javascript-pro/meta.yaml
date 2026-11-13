@@ -1,0 +1,9 @@
+name: javascript-pro
+description: "Writes, debugs, and refactors JavaScript code using modern ES2023+ features, async/await patterns, ESM modules, and Node.js APIs."
+status: active
+created: unknown
+last_audited: 2026-10-26
+targets:
+  - claude-code
+triggers: "JavaScript, ES2023, async await, Node.js, vanilla JavaScript, Web Workers, Fetch API, browser API, module system"
+notes: "Imported from Claude Code global skills"

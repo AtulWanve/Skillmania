@@ -1,0 +1,8 @@
+name: agent-graph-orchestration
+description: "LangGraph multi-agent architecture and scaffolding templates (reference archive)."
+status: archived
+created: 2026-06-30
+last_audited: 2026-11-02
+targets: []
+triggers: "manual"
+notes: "Archived reference in Skillmania registry; not deployed to global skills to prevent trigger collision."

@@ -1,0 +1,9 @@
+name: test-audit
+description: "Audit test suites for low-value tests, enforce authoring gates, and prune redundant test coverage."
+status: active
+created: 2026-10-27
+last_audited: 2026-10-27
+targets:
+  - claude-code
+triggers: "manual"
+notes: "Language-neutral test auditing and pruning skill combining authoring gates, proportional proof, and campaign pruning."

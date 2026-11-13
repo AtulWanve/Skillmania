@@ -1,0 +1,9 @@
+name: humanizer
+description: "Rewrite AI-sounding text so it reads naturally like human writing without changing what it says"
+status: active
+created: 2026-11-11
+last_audited: 2026-11-11
+targets:
+  - claude-code
+triggers: "humanize, rewrite, polish prose, remove ai tells, de-jargonize"
+notes: "Eliminates synthetic AI writing patterns, corporate buzzwords, and structural staging"

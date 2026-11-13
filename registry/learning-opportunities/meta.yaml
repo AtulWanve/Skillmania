@@ -1,0 +1,9 @@
+name: learning-opportunities
+description: "Facilitates deliberate skill development during AI-assisted coding with interactive learning exercises"
+status: active
+created: unknown
+last_audited: 2026-10-26
+targets:
+  - claude-code
+triggers: "manual"
+notes: "Imported from Claude Code global skills"

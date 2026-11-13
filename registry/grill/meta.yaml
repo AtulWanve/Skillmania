@@ -1,0 +1,9 @@
+name: grill
+description: "Relentlessly interview the user about a plan, feature, or design until every branch of the decision tree is settled before writing code."
+status: active
+created: unknown
+last_audited: 2026-10-26
+targets:
+  - claude-code
+triggers: "manual"
+notes: "Imported from Claude Code global skills"

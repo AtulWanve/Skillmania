@@ -1,0 +1,9 @@
+name: retro
+description: "Review the session for real, recurring repo problems, while ignoring one-off slips and generic syntax issues"
+status: active
+created: unknown
+last_audited: 2026-11-01
+targets:
+  - claude-code
+triggers: "manual"
+notes: "Imported from Claude Code global skills"

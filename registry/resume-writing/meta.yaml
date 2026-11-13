@@ -1,0 +1,9 @@
+name: resume-writing
+description: "Write effective resume bullets and content, covering composition, length, word choice, tailoring, keyword placement, and gendered language"
+status: active
+created: unknown
+last_audited: 2026-10-26
+targets:
+  - claude-code
+triggers: "manual"
+notes: "Imported from Claude Code global skills"

@@ -1,0 +1,9 @@
+name: postgres-pro
+description: "PostgreSQL expert for query optimization, EXPLAIN analysis, JSONB operations, replication, and VACUUM tuning"
+status: active
+created: unknown
+last_audited: 2026-10-26
+targets:
+  - claude-code
+triggers: "PostgreSQL, Postgres, EXPLAIN ANALYZE, pg_stat, JSONB, streaming replication, logical replication, VACUUM, PostGIS, pgvector"
+notes: "Imported from Claude Code global skills"

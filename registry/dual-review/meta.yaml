@@ -1,0 +1,9 @@
+name: dual-review
+description: "Review a diff across two independent axes (Functional / Spec Verification vs. Code Quality & Maintainability) and present findings side-by-side"
+status: active
+created: unknown
+last_audited: 2026-10-26
+targets:
+  - claude-code
+triggers: "manual"
+notes: "Imported from Claude Code global skills"

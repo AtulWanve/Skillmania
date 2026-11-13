@@ -1,0 +1,11 @@
+name: onboard
+description: "Automatically set up standardized root CLAUDE.md, root CONTEXT.md, and folder-level CONTEXT.md files for any new or existing project."
+status: active
+created: unknown
+last_audited: 2026-11-01
+type: command
+targets:
+  - claude-code
+triggers: "/onboard"
+source_path: "~/.claude/commands/onboard.md"
+notes: "This is a Claude Code COMMAND (not a skill). Lives in ~/.claude/commands/, uses $ARGUMENTS substitution. Imported from Claude Code global commands."

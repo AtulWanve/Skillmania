@@ -1,0 +1,9 @@
+name: python-pro
+description: "Modern Python 3.11+ specialist for type-safe, async-first, production-ready code with pytest and mypy"
+status: active
+created: unknown
+last_audited: 2026-10-26
+targets:
+  - claude-code
+triggers: "Python development, type hints, async Python, pytest, mypy, dataclasses, Python best practices, Pythonic code"
+notes: "Imported from Claude Code global skills"

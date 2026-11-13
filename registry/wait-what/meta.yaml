@@ -1,0 +1,9 @@
+name: wait-what
+description: "Stop and re-pitch the last response in plain English without jargon when an explanation did not land"
+status: active
+created: unknown
+last_audited: 2026-10-26
+targets:
+  - claude-code
+triggers: "manual"
+notes: "Imported from Claude Code global skills"

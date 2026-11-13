@@ -1,0 +1,9 @@
+name: pr
+description: "Use when writing a PR body with structured summary, evidence, and merge danger sections"
+status: active
+created: unknown
+last_audited: 2026-10-26
+targets:
+  - claude-code
+triggers: "manual"
+notes: "Imported from Claude Code global skills"

@@ -1,0 +1,9 @@
+name: diagnose
+description: "Disciplined bug diagnosis loop. Enforces reproducing regressions with a failing test before editing production code."
+status: active
+created: unknown
+last_audited: 2026-10-26
+targets:
+  - claude-code
+triggers: "manual"
+notes: "Imported from Claude Code global skills"

@@ -1,0 +1,9 @@
+name: skill-inspector
+description: "Review AI agent skills before installation using source-aware semantic review."
+status: active
+created: 2026-10-31
+last_audited: 2026-10-31
+targets:
+  - claude-code
+triggers: "manual, inspect skill, verify skill, review skill"
+notes: "Agent skill review and safety auditor inspecting intent, permission fit, hidden behavior, and user control."

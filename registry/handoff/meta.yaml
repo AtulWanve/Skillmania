@@ -1,0 +1,9 @@
+name: handoff
+description: "Summarize active session progress, decisions, and immediate next steps into a concise handoff note before clearing context."
+status: active
+created: unknown
+last_audited: 2026-10-26
+targets:
+  - claude-code
+triggers: "manual"
+notes: "Imported from Claude Code global skills"

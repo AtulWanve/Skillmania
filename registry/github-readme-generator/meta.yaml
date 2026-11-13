@@ -1,0 +1,9 @@
+name: github-readme-generator
+description: "Builds root README.md from verified code, manifests, scripts, tests, and workflows - never invents commands, badges, or claims."
+status: active
+created: unknown
+last_audited: 2026-10-26
+targets:
+  - claude-code
+triggers: "manual"
+notes: "Imported from Claude Code global skills"

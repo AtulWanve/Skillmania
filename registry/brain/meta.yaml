@@ -1,0 +1,9 @@
+name: brain
+description: "AI engineering runtime executing deterministic planning, validation, review, and memory sync across codebases"
+status: active
+created: 2026-10-27
+last_audited: 2026-11-06
+targets:
+  - claude-code
+triggers: "manual"
+notes: "Imported from Claude Code global skills"

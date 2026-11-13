@@ -1,0 +1,9 @@
+name: redis-core
+description: "Core Redis modeling guidance: choose the right data structure and use consistent colon-separated key names"
+status: active
+created: unknown
+last_audited: 2026-10-26
+targets:
+  - claude-code
+triggers: "manual"
+notes: "Imported from Claude Code global skills"

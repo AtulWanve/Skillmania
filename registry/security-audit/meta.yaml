@@ -1,0 +1,9 @@
+name: security-audit
+description: "Security guidance and vulnerability review for codebases, APIs, services, CLI tools, libraries, and daemons."
+status: active
+created: 2026-10-31
+last_audited: 2026-10-31
+targets:
+  - claude-code
+triggers: "manual, security audit, vulnerability review, pen test"
+notes: "Cloudflare 6-phase vulnerability discovery harness with coverage ledger and candidate validation."
